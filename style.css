@@ -137,7 +137,7 @@ footer {
   text-align: center;
   font-family: 'Mulish', sans-serif;
   width: 100%;
-  background-color: antiquewhite;
+  background-color: var(--light);
   padding: 1em;
   font-size: 1.2rem;
   margin-top: 1em;
@@ -146,6 +146,11 @@ footer {
 footer .twitter {
   text-decoration: none;
   color: inherit;
+}
+
+footer .dark {
+  background-color: var(--dark);
+  color: var(--light);
 }
 
 footer .twitter:hover,

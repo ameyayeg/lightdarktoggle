@@ -3,6 +3,7 @@ const header = document.getElementById('header')
 const h1 = document.getElementById('h1')
 const buttons = document.querySelectorAll('button')
 const post = document.querySelectorAll('.post')
+const footer = document.querySelector('footer')
 const yearCopy = document.querySelector('.year')
 
 toggle.addEventListener('change', () => {
@@ -18,6 +19,7 @@ function darkMode() {
         post.style.background = "var(--dark)"
         post.style.color = "var(--light)"
     })
+    footer.classList.add('dark')
 } 
 
 function lightMode() {
@@ -29,6 +31,7 @@ function lightMode() {
         post.style.background = "var(--light)"
         post.style.color = "var(--dark)"
     })
+    footer.classList.remove('dark')
 }
 
 yearCopy.innerHTML = (new Date().getFullYear());
