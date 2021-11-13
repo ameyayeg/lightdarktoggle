@@ -13,6 +13,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Mulish', sans-serif;
 }
 
 body {
@@ -25,6 +26,7 @@ body {
   padding: 2em;
   width: 100%;
   display: flex;
+  transition: 0.5s all;
 }
 
 .post-container {
@@ -48,6 +50,7 @@ img {
   max-width: 700px;
   margin: 2em auto;
   color: var(--dark);
+  transition: 0.5s;
 }
 
 .content {
@@ -81,6 +84,7 @@ button {
   justify-self: start;
   background-color: var(--dark);
   color: var(--light);
+  transition: 0.5s all;
 }
 
 .toggle {
@@ -127,4 +131,24 @@ label::after {
 .dark button {
   background-color: var(--light);
   color: var(--dark);
+}
+
+footer {
+  text-align: center;
+  font-family: 'Mulish', sans-serif;
+  width: 100%;
+  background-color: antiquewhite;
+  padding: 1em;
+  font-size: 1.2rem;
+  margin-top: 1em;
+}
+
+footer .twitter {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer .twitter:hover,
+footer .twitter:focus {
+  color: rebeccapurple;
 }
