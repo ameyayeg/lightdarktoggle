@@ -24,7 +24,7 @@ function darkMode() {
 
 function lightMode() {
     body.classList.remove('dark')
-    body.style.backgroundColor = "var(--dark)"
+    body.style.backgroundColor = "var(--highlight)"
     header.style.backgroundColor = "var(--light)"
     h1.style.color = "var(--dark)"
     post.forEach(post => {
