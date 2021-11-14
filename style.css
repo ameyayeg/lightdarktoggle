@@ -19,6 +19,8 @@ body {
 body {
   font-family: 'Asap', sans-serif;
   background: var(--highlight);
+  display: grid;
+  grid-auto-flow: row;
 }
 
 .header {
