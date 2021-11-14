@@ -19,8 +19,9 @@ body {
 body {
   font-family: 'Asap', sans-serif;
   background: var(--highlight);
+  min-height: 100vh;
   display: grid;
-  grid-auto-flow: row;
+  grid-template-rows: 10% 80% 10%;
 }
 
 .header {
@@ -28,6 +29,8 @@ body {
   padding: 2em;
   width: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
   transition: 0.5s all;
 }
 
