@@ -18,9 +18,9 @@ body {
 body {
   font-family: 'Asap', sans-serif;
   background: var(--highlight);
-  min-height: 100vh;
   display: grid;
-  grid-template-rows: 10% 80% 10%;
+  min-height: 100vh;
+  grid-template-rows: 1fr 2fr 1fr;
 }
 
 .header {
